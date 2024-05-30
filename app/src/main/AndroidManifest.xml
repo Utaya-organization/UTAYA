@@ -15,12 +15,13 @@
         <activity
             android:name=".BottomActivity"
             android:exported="false"
-            android:label="@string/title_activity_bottom" />
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
         <activity
-            android:name=".RegisterActivity"
+            android:name=".register.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".login.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

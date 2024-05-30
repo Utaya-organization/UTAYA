@@ -15,9 +15,9 @@
     <string name="title_camera">Camera</string>
     <string name="title_profile">Profile</string>
     <string name="title_clock">Clock</string>
+    <string name="this_is_profile">this is profile</string>
+    <string name="this_is_profile_camera">This is profile camera</string>
+    <string name="this_is_clock">this is clock</string>
 
-    <string name="This_is_profile_camera">This is profile camera</string>
-    <string name="This_is_profile_clock">This is profile clock</string>
-    <string name="This_is_profile_fragment">This is profile fragment</string>
 
 </resources>

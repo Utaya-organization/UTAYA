@@ -16,6 +16,8 @@ class BottomActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
+
         binding = ActivityBottomBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -34,6 +36,7 @@ class BottomActivity : AppCompatActivity() {
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
+
         navView.setupWithNavController(navController)
     }
 }

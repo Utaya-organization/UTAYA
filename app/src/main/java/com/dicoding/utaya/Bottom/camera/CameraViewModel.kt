@@ -1,4 +1,4 @@
-package com.dicoding.utaya
+package com.dicoding.utaya.Bottom.camera
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
