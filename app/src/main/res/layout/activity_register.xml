@@ -9,9 +9,9 @@
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/u_taya_logo"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="32dp"/>
+        android:src="@drawable/logo_white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
 
     <!-- Title: SIGN UP -->
     <TextView
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="SIGN UP"
         android:textSize="24sp"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:layout_below="@id/logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
@@ -83,7 +83,8 @@
         android:layout_below="@id/confirmPasswordInputLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="Sign Up" />
+        android:text="Sign Up"
+        android:background="#D9D9D9" />
 
 
     <TextView
