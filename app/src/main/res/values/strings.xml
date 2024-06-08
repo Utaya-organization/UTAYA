@@ -18,6 +18,10 @@
     <string name="this_is_profile">this is profile</string>
     <string name="this_is_profile_camera">This is profile camera</string>
     <string name="this_is_clock">this is clock</string>
+    <string name="camera">camera</string>
+    <string name="gallery">gallery\n</string>
+    <string name="upload">upload</string>
+    <string name="camera_x">camera x</string>
 
 
 </resources>

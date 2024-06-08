@@ -53,4 +53,29 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    //camera
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+
+
+    // CameraX core library
+    implementation ("androidx.camera:camera-core:1.2.2")
+
+    // CameraX Camera2 implementation
+    implementation ("androidx.camera:camera-camera2:1.2.2")
+
+    // CameraX Lifecycle library
+    implementation ("androidx.camera:camera-lifecycle:1.2.2")
+
+    // CameraX View class
+    implementation ("androidx.camera:camera-view:1.2.2")
+
+    // CameraX Extensions library (optional, for advanced features)
+    implementation ("androidx.camera:camera-extensions:1.2.2")
+
+
 }
