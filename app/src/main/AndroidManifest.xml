@@ -17,12 +17,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UTAYA"
         tools:targetApi="31" >
-        <activity
-            android:name=".CameraActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Bottom.camera.CameraActivity"
-            android:exported="false" />
+       
+
         <activity
             android:name=".BottomActivity"
             android:exported="false"

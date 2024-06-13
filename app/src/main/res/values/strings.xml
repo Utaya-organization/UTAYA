@@ -22,6 +22,9 @@
     <string name="gallery">gallery\n</string>
     <string name="upload">upload</string>
     <string name="camera_x">camera x</string>
+    <string name="Profile">Profile</string>
+    <string name="change_password">Password</string>
+    <string name="change_username">Username</string>
 
 
 </resources>
