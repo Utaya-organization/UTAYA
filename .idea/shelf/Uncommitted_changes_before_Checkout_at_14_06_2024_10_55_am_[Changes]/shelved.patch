@@ -1,0 +1,228 @@
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">UTAYA</string>\r\n    <string name=\"login\">Login</string>\r\n    <string name=\"username_hint\">Username</string>\r\n    <string name=\"password_hint\">Password</string>\r\n    <string name=\"sign_in\">Sign In</string>\r\n    <string name=\"dont_have_account\">Don\\'t have an account? Sign up</string>\r\n    <string name=\"username\">Username</string>\r\n    <string name=\"password\">Password</string>\r\n    <string name=\"dont_have_an_account_sign_up\">Don\\'t have an account? Sign up</string>\r\n    <string name=\"title_activity_bottom\">BottomActivity</string>\r\n    <string name=\"title_home\">Home</string>\r\n    <string name=\"title_dashboard\">Dashboard</string>\r\n    <string name=\"title_notifications\">Notifications</string>\r\n    <string name=\"title_camera\">Camera</string>\r\n    <string name=\"title_profile\">Profile</string>\r\n    <string name=\"title_clock\">Clock</string>\r\n    <string name=\"this_is_profile\">this is profile</string>\r\n    <string name=\"this_is_profile_camera\">This is profile camera</string>\r\n    <string name=\"this_is_clock\">this is clock</string>\r\n    <string name=\"camera\">camera</string>\r\n    <string name=\"gallery\">gallery\\n</string>\r\n    <string name=\"upload\">upload</string>\r\n    <string name=\"camera_x\">camera x</string>\r\n\r\n\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/strings.xml b/app/src/main/res/values/strings.xml
+--- a/app/src/main/res/values/strings.xml	
++++ b/app/src/main/res/values/strings.xml	
+@@ -19,9 +19,66 @@
+     <string name="this_is_profile_camera">This is profile camera</string>
+     <string name="this_is_clock">this is clock</string>
+     <string name="camera">camera</string>
+-    <string name="gallery">gallery\n</string>
++    <string name="gallery">gallery</string>
+     <string name="upload">upload</string>
+     <string name="camera_x">camera x</string>
+ 
++    <string name="heroes_name">Nama Pahlawan</string>
++    <string name="description">Deskripsi</string>
++    <string name="merk">Merk</string>
++    <string name="harga">Harga</string>
++    <string name="link">link</string>
++    <string name="article">article</string>
++    <string name="photo_produk">Photo Produk</string>
++    <string-array name="data_merk">
++        <item>Azarine</item>
++        <item>Wardah</item>
++        <item>Kahf</item>
++        <item>Scintific</item>
++        <item>Olla</item>
++        <item>Olla</item>
++        <item>Olla</item>
++    </string-array>
++    <string-array name="data_price">
++        <item>Rp.140000</item>
++        <item>Rp.150000</item>
++        <item>Rp.160000</item>
++        <item>Rp.190000</item>
++        <item>Rp.110000</item>
++        <item>Rp.110000</item>
++        <item>Rp.110000</item>
++        <item>Rp.110000</item>
++    </string-array>
++    <string-array name="data_link">
++        <item>google</item>
++        <item>yahooo</item>
++        <item>xampp</item>
++        <item>php</item>
++        <item>cek</item>
++        <item>cek</item>
++        <item>cek</item>
++        <item>cek</item>
++    </string-array>
++    <string-array name="data_article">
++        <item>BBH</item>
++        <item>ChekitOut</item>
++        <item>kontes</item>
++        <item>Penjoki</item>
++        <item>Jurnalis</item>
++        <item>Jurnalis</item>
++        <item>Jurnalis</item>
++        <item>Jurnalis</item>
++    </string-array>
++    <integer-array name="data_photo">
++        <item>@drawable/sample</item>
++        <item>@drawable/sample</item>
++        <item>@drawable/sample</item>
++        <item>@drawable/sample</item>
++        <item>@drawable/sample</item>
++        <item>@drawable/sample</item>
++        <item>@drawable/sample</item>
++
++    </integer-array>
++
+ 
+ </resources>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_bottom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    android:id=\"@+id/container\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"#B66330\"\r\n    android:paddingTop=\"?attr/actionBarSize\">\r\n\r\n    <com.google.android.material.bottomnavigation.BottomNavigationView\r\n        android:id=\"@+id/nav_view\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"0dp\"\r\n        android:layout_marginEnd=\"0dp\"\r\n        android:background=\"?android:attr/windowBackground\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintLeft_toLeftOf=\"parent\"\r\n        app:layout_constraintRight_toRightOf=\"parent\"\r\n        app:menu=\"@menu/bottom_nav_menu\" />\r\n\r\n    <fragment\r\n        android:id=\"@+id/nav_host_fragment_activity_bottom\"\r\n        android:name=\"androidx.navigation.fragment.NavHostFragment\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\"\r\n        app:defaultNavHost=\"true\"\r\n        app:layout_constraintBottom_toTopOf=\"@id/nav_view\"\r\n        app:layout_constraintLeft_toLeftOf=\"parent\"\r\n        app:layout_constraintRight_toRightOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:navGraph=\"@navigation/mobile_navigation\" />\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+===================================================================
+diff --git a/app/src/main/res/layout/activity_bottom.xml b/app/src/main/res/layout/activity_bottom.xml
+--- a/app/src/main/res/layout/activity_bottom.xml	
++++ b/app/src/main/res/layout/activity_bottom.xml	
+@@ -3,9 +3,7 @@
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:id="@+id/container"
+     android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:background="#B66330"
+-    android:paddingTop="?attr/actionBarSize">
++    android:layout_height="match_parent"  >
+ 
+     <com.google.android.material.bottomnavigation.BottomNavigationView
+         android:id="@+id/nav_view"
+@@ -25,6 +23,7 @@
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         app:defaultNavHost="true"
++        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+         app:layout_constraintBottom_toTopOf="@id/nav_view"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+Index: app/src/main/res/layout/fragment_home.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".ui.home.HomeFragment\">\r\n\r\n    <TextView\r\n        android:id=\"@+id/text_home\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:textAlignment=\"center\"\r\n        android:textSize=\"20sp\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\" />\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+===================================================================
+diff --git a/app/src/main/res/layout/fragment_home.xml b/app/src/main/res/layout/fragment_home.xml
+--- a/app/src/main/res/layout/fragment_home.xml	
++++ b/app/src/main/res/layout/fragment_home.xml	
+@@ -4,19 +4,32 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
++    android:background="#B66330"
++    android:fitsSystemWindows="true"
+     tools:context=".ui.home.HomeFragment">
+ 
+     <TextView
+-        android:id="@+id/text_home"
+-        android:layout_width="match_parent"
++        android:id="@+id/tv_Title"
++        android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:layout_marginStart="8dp"
+-        android:layout_marginTop="8dp"
+-        android:layout_marginEnd="8dp"
+-        android:textAlignment="center"
+-        android:textSize="20sp"
++        android:text="Produk"
++        android:textColor="#FFFFFF"
++        android:textSize="24sp"
++        android:layout_marginTop="70dp"
++        android:textStyle="bold"
++        app:layout_constraintBottom_toTopOf="@+id/rv_product"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:layout_constraintVertical_bias="0.487" />
++
++    <androidx.recyclerview.widget.RecyclerView
++        android:id="@+id/rv_product"
++        android:layout_width="0dp"
++        android:layout_height="wrap_content"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
++        app:layout_constraintTop_toBottomOf="@id/tv_Title" />
+ </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/dicoding/utaya/ui/home/HomeFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.dicoding.utaya.ui.home\r\n\r\nimport android.os.Bundle\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport android.widget.TextView\r\nimport androidx.fragment.app.Fragment\r\nimport androidx.lifecycle.ViewModelProvider\r\nimport com.dicoding.utaya.databinding.FragmentHomeBinding\r\n\r\nclass HomeFragment : Fragment() {\r\n\r\n    private var _binding: FragmentHomeBinding? = null\r\n\r\n    // This property is only valid between onCreateView and\r\n    // onDestroyView.\r\n    private val binding get() = _binding!!\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater,\r\n        container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View {\r\n        val homeViewModel =\r\n            ViewModelProvider(this).get(HomeViewModel::class.java)\r\n\r\n        _binding = FragmentHomeBinding.inflate(inflater, container, false)\r\n        val root: View = binding.root\r\n\r\n        val textView: TextView = binding.textHome\r\n        homeViewModel.text.observe(viewLifecycleOwner) {\r\n            textView.text = it\r\n        }\r\n        return root\r\n    }\r\n\r\n    override fun onDestroyView() {\r\n        super.onDestroyView()\r\n        _binding = null\r\n    }\r\n}
+===================================================================
+diff --git a/app/src/main/java/com/dicoding/utaya/ui/home/HomeFragment.kt b/app/src/main/java/com/dicoding/utaya/ui/home/HomeFragment.kt
+--- a/app/src/main/java/com/dicoding/utaya/ui/home/HomeFragment.kt	
++++ b/app/src/main/java/com/dicoding/utaya/ui/home/HomeFragment.kt	
+@@ -4,13 +4,18 @@
+ import android.view.LayoutInflater
+ import android.view.View
+ import android.view.ViewGroup
+-import android.widget.TextView
+ import androidx.fragment.app.Fragment
+ import androidx.lifecycle.ViewModelProvider
++import androidx.recyclerview.widget.LinearLayoutManager
++import androidx.recyclerview.widget.RecyclerView
++import com.ListProductAdapter
++import com.dicoding.utaya.R
+ import com.dicoding.utaya.databinding.FragmentHomeBinding
++import com.product
+ 
+ class HomeFragment : Fragment() {
+-
++    private lateinit var rvProduct: RecyclerView
++    private val list = ArrayList<product>()
+     private var _binding: FragmentHomeBinding? = null
+ 
+     // This property is only valid between onCreateView and
+@@ -28,15 +33,36 @@
+         _binding = FragmentHomeBinding.inflate(inflater, container, false)
+         val root: View = binding.root
+ 
+-        val textView: TextView = binding.textHome
+-        homeViewModel.text.observe(viewLifecycleOwner) {
+-            textView.text = it
+-        }
++        rvProduct = binding.rvProduct
++        rvProduct.setHasFixedSize(true)
++        list.addAll(getListProducts())
++        showRecyclerList()
+         return root
+     }
+ 
++    private fun getListProducts(): ArrayList<product> {
++        val dataMerk = resources.getStringArray(R.array.data_merk)
++        val dataPrice = resources.getStringArray(R.array.data_price)
++        val dataLink = resources.getStringArray(R.array.data_link)
++        val dataArticle = resources.getStringArray(R.array.data_article)
++        val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
++        val listProducts = ArrayList<product>()
++        for (i in dataMerk.indices) {
++            val product = product(dataMerk[i], dataPrice[i], dataLink[i], dataArticle[i], dataPhoto.getResourceId(i, -1))
++            listProducts.add(product)
++        }
++        dataPhoto.recycle()
++        return listProducts
++    }
++
++    private fun showRecyclerList() {
++        rvProduct.layoutManager = LinearLayoutManager(requireContext())
++        val listProductAdapter = ListProductAdapter(list)
++        rvProduct.adapter = listProductAdapter
++    }
++
+     override fun onDestroyView() {
+         super.onDestroyView()
+         _binding = null
+     }
+-}
+\ No newline at end of file
++}
