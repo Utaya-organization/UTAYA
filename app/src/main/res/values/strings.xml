@@ -19,12 +19,62 @@
     <string name="this_is_profile_camera">This is profile camera</string>
     <string name="this_is_clock">this is clock</string>
     <string name="camera">camera</string>
-    <string name="gallery">gallery\n</string>
+    <string name="gallery">gallery</string>
     <string name="upload">upload</string>
     <string name="camera_x">camera x</string>
     <string name="Profile">Profile</string>
     <string name="change_password">Password</string>
     <string name="change_username">Username</string>
+    <string name="merk">Merk</string>
+    <string name="harga">Harga</string>
+    <string name="link">Link</string>
+    <string name="article">Article</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="jenis_kulit">jenis kulit</string>
 
+    <string-array name="data_merk">
+        <item>Azarine</item>
+        <item>Kahff</item>
+        <item>Wardah</item>
+        <item>Wardah</item>
+        <item>Wardah</item>
+        <item>Wardah</item>
+    </string-array>
+    <string-array name="data_harga">
+        <item>Rp.100.000</item>
+        <item>Rp.200.000</item>
+        <item>Rp.300.000</item>
+        <item>Rp.300.000</item>
+        <item>Rp.300.000</item>
+        <item>Rp.300.000</item>
+
+    </string-array>
+    <string-array name="data_link">
+        <item>google.com</item>
+        <item>youtube.com</item>
+        <item>twitter.com</item>
+        <item>twitter.com</item>
+        <item>twitter.com</item>
+        <item>twitter.com</item>
+
+    </string-array>
+    <string-array name="data_article">
+        <item>Artikel 1</item>
+        <item>Artikel 2</item>
+        <item>Artikel 3</item>
+        <item>Artikel 3</item>
+        <item>Artikel 3</item>
+        <item>Artikel 3</item>
+
+    </string-array>
+    <integer-array name="data_foto">
+        <item>@drawable/azarine</item>
+        <item>@drawable/kahff</item>
+        <item>@drawable/wardah</item>
+        <item>@drawable/wardah</item>
+        <item>@drawable/wardah</item>
+        <item>@drawable/wardah</item>
+
+    </integer-array>
 
 </resources>

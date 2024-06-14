@@ -8,28 +8,28 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.dicoding.utaya.ui.home.HomeFragment"
+        android:name="com.dicoding.utaya.ui.Bottom.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
 
     <fragment
         android:id="@+id/navigation_camera"
-        android:name="com.dicoding.utaya.Bottom.camera.CameraFragment"
+        android:name="com.dicoding.utaya.ui.Bottom.camera.CameraFragment"
         android:label="@string/title_camera"
         tools:layout="@layout/fragment_camera" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.dicoding.utaya.ProfileFragment"
+        android:name="com.dicoding.utaya.ui.Bottom.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/navigation_clock"
-        android:name="com.dicoding.utaya.ClockFragment"
+        android:name="com.dicoding.utaya.ui.Bottom.history.HistoryFragment"
         android:label="@string/title_clock"
-        tools:layout="@layout/fragment_clock" />
+        tools:layout="@layout/fragment_history" />
 
 
 

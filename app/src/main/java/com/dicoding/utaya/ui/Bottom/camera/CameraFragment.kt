@@ -1,4 +1,4 @@
-package com.dicoding.utaya.Bottom.camera
+package com.dicoding.utaya.ui.Bottom.camera
 
 import android.app.Activity
 import android.content.Intent
