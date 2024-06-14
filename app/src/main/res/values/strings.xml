@@ -77,4 +77,15 @@
 
     </integer-array>
 
+
+    <string-array name="data_skin">
+        <item>Oily</item>
+        <item>Dry</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="data_foto_skin">
+        <item>@drawable/skin_oily</item>
+        <item>@drawable/skin_oily</item>
+        <item>@drawable/skin_oily</item>
+    </string-array>
 </resources>

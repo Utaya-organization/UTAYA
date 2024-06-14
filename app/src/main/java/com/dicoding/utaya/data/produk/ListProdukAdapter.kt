@@ -27,8 +27,8 @@ class ListProdukAdapter(private val listProduk: ArrayList<Produk>) : RecyclerVie
     }
 
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val ivFoto: ImageView = itemView.findViewById(R.id.iv_history)
-        val tvMerk: TextView = itemView.findViewById(R.id.tv_result)
+        val ivFoto: ImageView = itemView.findViewById(R.id.iv_card)
+        val tvMerk: TextView = itemView.findViewById(R.id.tv_title_one)
         val tvHarga: TextView = itemView.findViewById(R.id.tv_title_two)
         val tvLink: TextView = itemView.findViewById(R.id.tv_title_three)
         val tvArtikel: TextView = itemView.findViewById(R.id.tv_title_four)

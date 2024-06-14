@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.026" />
 
     <TextView
-        android:id="@+id/tv_title_product"
+        android:id="@+id/tv_title_history"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/riwayat"
@@ -35,15 +35,14 @@
         app:layout_constraintVertical_bias="0.138" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_produk"
+        android:id="@+id/rv_history"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_title_product"
-        app:layout_constraintVertical_bias="0.046" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_history"
+        app:layout_constraintVertical_bias="0.119" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

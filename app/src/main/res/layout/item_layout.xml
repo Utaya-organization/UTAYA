@@ -17,7 +17,7 @@
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/iv_history"
+            android:id="@+id/iv_card"
             android:layout_width="60dp"
             android:layout_height="80dp"
             android:layout_marginStart="16dp"
@@ -30,44 +30,44 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/tv_result"
+            android:id="@+id/tv_title_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/iv_history"
+            android:layout_toEndOf="@id/iv_card"
             android:text="@string/merk"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.123"
-            app:layout_constraintStart_toEndOf="@id/iv_history"
-            app:layout_constraintTop_toTopOf="@id/iv_history" />
+            app:layout_constraintStart_toEndOf="@id/iv_card"
+            app:layout_constraintTop_toTopOf="@id/iv_card" />
 
         <TextView
             android:id="@+id/tv_title_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
-            android:layout_toEndOf="@id/iv_history"
+            android:layout_toEndOf="@id/iv_card"
             android:text="@string/harga"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.123"
-            app:layout_constraintStart_toEndOf="@id/iv_history"
-            app:layout_constraintTop_toBottomOf="@id/tv_result" />
+            app:layout_constraintStart_toEndOf="@id/iv_card"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_one" />
 
         <TextView
             android:id="@+id/tv_title_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
-            android:layout_toEndOf="@id/iv_history"
+            android:layout_toEndOf="@id/iv_card"
             android:text="@string/link"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.123"
-            app:layout_constraintStart_toEndOf="@id/iv_history"
+            app:layout_constraintStart_toEndOf="@id/iv_card"
             app:layout_constraintTop_toBottomOf="@id/tv_title_two" />
 
         <TextView
