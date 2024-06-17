@@ -18,8 +18,8 @@
         android:title="@string/title_profile"/>
 
     <item
-        android:id="@+id/navigation_clock"
+        android:id="@+id/navigation_history"
         android:icon="@drawable/round_access_time_24"
-        android:title="@string/title_clock"/>
+        android:title="@string/title_history"/>
 
 </menu>

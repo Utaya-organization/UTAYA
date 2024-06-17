@@ -1,13 +1,13 @@
 package com.dicoding.utaya
 
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.dicoding.utaya.databinding.ActivityBottomBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class BottomActivity : AppCompatActivity() {
 
@@ -16,7 +16,7 @@ class BottomActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-
+        supportActionBar?.hide()
 
         binding = ActivityBottomBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -31,7 +31,7 @@ class BottomActivity : AppCompatActivity() {
                 R.id.navigation_home,
                 R.id.navigation_camera,
                 R.id.navigation_profile,
-                R.id.navigation_clock
+                R.id.navigation_history
 
             )
         )

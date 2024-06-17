@@ -1,4 +1,4 @@
-package com.dicoding.utaya.data.produk
+package com.dicoding.utaya.ui.Bottom.produk
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

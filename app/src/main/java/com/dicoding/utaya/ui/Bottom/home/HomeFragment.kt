@@ -9,8 +9,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.utaya.R
-import com.dicoding.utaya.data.produk.ListProdukAdapter
-import com.dicoding.utaya.data.produk.Produk
+import com.dicoding.utaya.ui.Bottom.produk.ListProdukAdapter
+import com.dicoding.utaya.ui.Bottom.produk.Produk
 import com.dicoding.utaya.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {

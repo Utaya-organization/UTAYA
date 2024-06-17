@@ -9,8 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/u_taya_logo"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="32dp"/>
+        android:layout_centerHorizontal="true"
+     android:layout_marginTop="32dp"/>
 
     <TextView
         android:id="@+id/loginLabel"
@@ -40,20 +40,19 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/signInButton"
+        android:id="@+id/bt_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/passwordInputField"
         android:layout_marginTop="24dp"
-        android:text="Sign In" />
+        android:text="Login" />
 
-    <TextView
-        android:id="@+id/signUpText"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/bt_to_register"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/signInButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="Don't have an account? Sign up" />
+        android:layout_below="@id/bt_login"
+        android:layout_marginTop="24dp"
+        android:text="Sign Up" />
 
 </RelativeLayout>

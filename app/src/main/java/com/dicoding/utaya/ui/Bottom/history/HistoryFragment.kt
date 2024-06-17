@@ -8,8 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.utaya.R
-import com.dicoding.utaya.data.history.History
-import com.dicoding.utaya.data.history.ListHistoryAdapter
+import com.dicoding.utaya.ui.Bottom.history.History
+import com.dicoding.utaya.ui.Bottom.history.ListHistoryAdapter
 import com.dicoding.utaya.databinding.FragmentHistoryBinding
 
 // TODO: Rename parameter arguments, choose names that match

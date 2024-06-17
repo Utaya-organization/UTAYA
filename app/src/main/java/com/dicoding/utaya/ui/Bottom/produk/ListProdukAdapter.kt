@@ -1,4 +1,4 @@
-package com.dicoding.utaya.data.produk
+package com.dicoding.utaya.ui.Bottom.produk
 
 import android.view.LayoutInflater
 import android.view.View

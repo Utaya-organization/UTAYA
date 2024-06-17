@@ -1,4 +1,4 @@
-package com.dicoding.utaya.data.history
+package com.dicoding.utaya.ui.Bottom.history
 
 import android.view.LayoutInflater
 import android.view.View
