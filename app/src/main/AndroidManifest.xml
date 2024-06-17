@@ -17,7 +17,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UTAYA"
         tools:targetApi="31" >
-       
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.dicoding.utaya.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+
 
         <activity
             android:name=".BottomActivity"
