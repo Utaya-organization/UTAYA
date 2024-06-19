@@ -27,7 +27,7 @@ class ApiConfig {
 
         fun getApiService(context: Context): ApiService {
 
-            val sharedPref = Preference.initPref(context, "onSignIn")
+            val sharedPref = Preference.initPref(context)
             val token = sharedPref.getString("token", null).toString()
 
             val retrofit = Retrofit.Builder()
