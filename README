@@ -1,17 +1,33 @@
-# UTAYA App
+# UTAYA
 
-## Pengembangan Aplikasi
-Kami akan mengembangkan aplikasi yang modern dan visual yang menarik menggunakan pemrograman Kotlin dan mengintegrasikan perpustakaan Jetpack Compose, Room, Retrofit2, CameraX, Material Design, dan Vico. Kami menerapkan arsitektur kode bersih, menghubungkan aplikasi ke API, dan menerapkan layanan pihak ketiga. Desain aplikasi kami mengikuti fitur yang dirancang berdasarkan masalah yang ada dan kebutuhan pengguna menggunakan Figma.
+Welcome to the UTAYA repository. This is a brief description of what the project does and how to get started.
 
-## Divisi MD
+## Table of Contents
 
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## 💡 Desain dengan Figma
-- Sistem Desain
-- Desain Mobile
+## Introduction
 
-## 💡 Fitur
+UTAYA is a project that aims to...
 
+## Features
 
-## Build
-Kloning proyek:
+- Feature 1
+- Feature 2
+  - Subfeature 1
+  - Subfeature 2
+- Feature 3
+
+## Installation
+
+To install this project, follow these steps:
+
+```bash
+git clone https://github.com/Utaya-organization/UTAYA.git
+cd UTAYA
+npm install
