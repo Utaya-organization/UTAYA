@@ -1,1 +1,17 @@
-# Dillinger
+# UTAYA App
+
+## Pengembangan Aplikasi
+Kami akan mengembangkan aplikasi yang modern dan visual yang menarik menggunakan pemrograman Kotlin dan mengintegrasikan perpustakaan Jetpack Compose, Room, Retrofit2, CameraX, Material Design, dan Vico. Kami menerapkan arsitektur kode bersih, menghubungkan aplikasi ke API, dan menerapkan layanan pihak ketiga. Desain aplikasi kami mengikuti fitur yang dirancang berdasarkan masalah yang ada dan kebutuhan pengguna menggunakan Figma.
+
+## Divisi MD
+
+
+## 💡 Desain dengan Figma
+- Sistem Desain
+- Desain Mobile
+
+## 💡 Fitur
+
+
+## Build
+Kloning proyek:
