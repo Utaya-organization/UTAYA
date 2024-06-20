@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.dicoding.utaya.data.di.Injection
+import com.dicoding.utaya.ui.Bottom.home.HomeViewModel
 import com.dicoding.utaya.ui.changePassword.ChangePwViewModel
 import com.dicoding.utaya.ui.login.LoginViewModel
 import com.dicoding.utaya.ui.register.RegisterViewModel
@@ -21,6 +22,9 @@ class ViewModelFactory(private val context: Context) : ViewModelProvider.Factory
             }
             modelClass.isAssignableFrom(ChangePwViewModel::class.java) -> {
                 ChangePwViewModel(context, repository) as T  // Pass context and repository
+            }
+            modelClass.isAssignableFrom(HomeViewModel::class.java) -> {
+                HomeViewModel(repository) as T
             }
             else -> throw IllegalArgumentException("Unknown ViewModel Class")
         }

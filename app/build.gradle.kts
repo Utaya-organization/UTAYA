@@ -68,6 +68,7 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
 
+    implementation("androidx.paging:paging-runtime-ktx:3.1.0")
 
     // CameraX core library
     implementation ("androidx.camera:camera-core:1.2.2")

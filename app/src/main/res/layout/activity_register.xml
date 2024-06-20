@@ -1,41 +1,46 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/register"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="16dp"
-    android:id="@+id/register"
-    android:background="#B66330">
+    android:background="@color/white"
+    android:padding="16dp">
 
     <!-- Logo Placeholder -->
     <ImageView
         android:id="@+id/logo"
         android:layout_width="108dp"
         android:layout_height="110dp"
-        android:src="@drawable/ic_launcher_round"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"/>
+        android:layout_marginTop="32dp"
+        android:src="@drawable/icon_logo" />
 
     <!-- Title: SIGN UP -->
+
+    <!-- Username Input Field -->
     <TextView
         android:id="@+id/registerTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:textColor="#F4F4F4"
-        android:textSize="24sp"
-        android:textStyle="bold"
         android:layout_below="@id/logo"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Register"
+        android:textColor="@color/cek"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
-    <!-- Username Input Field -->
     <EditText
         android:id="@+id/et_username_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/registerTitle"
-        android:textColor="#F4F4F4"
-        android:layout_marginTop="16dp"
-        android:hint="Username" />
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:hint="Username"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/abu" />
 
     <!-- Password Input Field -->
     <EditText
@@ -43,10 +48,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/et_username_register"
-        android:layout_marginTop="16dp"
-        android:textColor="#F4F4F4"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans_semibold"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/abu" />
 
     <!-- Confirm Password Input Field -->
     <EditText
@@ -54,10 +61,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/et_password_register"
-        android:layout_marginTop="16dp"
-        android:textColor="#F4F4F4"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans_semibold"
         android:hint="Confirm  Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/abu" />
 
     <!-- Login Link -->
     <TextView
@@ -65,10 +74,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/et_confirmPassword_register"
-        android:layout_marginTop="10dp"
         android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Login ?"
-        android:textColor="#F4F4F4"
+        android:textColor="@color/abu"
         android:textSize="14sp"
         android:textStyle="bold" />
 
@@ -79,11 +89,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/et_confirmPassword_register"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button_custom_background"
+        android:layout_marginStart="90dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="90dp"
+        android:background="@drawable/button_custom_background"
+        android:fontFamily="@font/poppins_bold"
         android:text="Register"
-        android:textColor="@color/coklat"
-        app:backgroundTint="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:backgroundTint="@color/cek" />
 
     <!-- Progress Bar -->
     <ProgressBar
